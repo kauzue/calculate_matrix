@@ -57,17 +57,40 @@ int main(void) {
 							}
 						}
 
+						printf("행렬 A : ");
+
+						for (int i = 0; i < row_A; i++) {
+							for (int j = 0; j < col_A; j++) {
+								printf("%d ", A[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 B : ");
+
+						for (int i = 0; i < row_B; i++) {
+							for (int j = 0; j < col_B; j++) {
+								printf("%d ", B[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 C : ");
+
 						for (int i = 0; i < n; i++) {
 							for (int j = 0; j < m; j++) {
 								printf("%d ", C[i][j]);
 							}
-							printf("\n");
+							printf("\n         ");
 						}
+						printf("\n");
 						system("pause");
 					}
 
 					else {
-						printf("두 행렬은 더하기를 할 수 없습니다.");
+						printf("두 행렬은 더하기를 할 수 없습니다. \n");
 						system("pause");
 					}
 					break;
@@ -89,17 +112,40 @@ int main(void) {
 							}
 						}
 
+						printf("행렬 A : ");
+
+						for (int i = 0; i < row_A; i++) {
+							for (int j = 0; j < col_A; j++) {
+								printf("%d ", A[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 B : ");
+
+						for (int i = 0; i < row_B; i++) {
+							for (int j = 0; j < col_B; j++) {
+								printf("%d ", B[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 C : ");
+
 						for (int i = 0; i < n; i++) {
 							for (int j = 0; j < m; j++) {
 								printf("%d ", C[i][j]);
 							}
-							printf("\n");
+							printf("\n         ");
 						}
+						printf("\n");
 						system("pause");
 					}
 
 					else {
-						printf("두 행렬은 빼기를 할 수 없습니다.");
+						printf("두 행렬은 빼기를 할 수 없습니다. \n");
 						system("pause");
 					}
 					break;
@@ -124,17 +170,40 @@ int main(void) {
 							}
 						}
 
+						printf("행렬 A : ");
+
+						for (int i = 0; i < row_A; i++) {
+							for (int j = 0; j < col_A; j++) {
+								printf("%d ", A[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 B : ");
+
+						for (int i = 0; i < row_B; i++) {
+							for (int j = 0; j < col_B; j++) {
+								printf("%d ", B[i][j]);
+							}
+							printf("\n         ");
+						}
+
+						printf("\n");
+						printf("행렬 C : ");
+
 						for (int i = 0; i < n; i++) {
 							for (int j = 0; j < m; j++) {
 								printf("%d ", C[i][j]);
 							}
-							printf("\n");
+							printf("\n         ");
 						}
+						printf("\n");
 						system("pause");
 					}
 
 					else {
-						printf("두 행렬은 곱하기를 할 수 없습니다.");
+						printf("두 행렬은 곱하기를 할 수 없습니다. \n");
 						system("pause");
 					}
 					break;
