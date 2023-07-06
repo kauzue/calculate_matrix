@@ -9,6 +9,7 @@ enum MAIN { MATRIX, EXIT };
 enum CACULATION {PLUS, MINUS, MULTIPLY, BACK};
 
 int main(void) {
+	system("title Calculation Matrix");
 	int row_A, col_A, row_B, col_B;
 	int key = 0;
 
